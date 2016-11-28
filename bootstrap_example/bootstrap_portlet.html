@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Monitoring Screen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      background-color: #f1f4f5;
+  }
+  .card-block h6 {
+    float: left;
+    margin:10px 0px 0px;
+  }
+  .action {
+    font-size: 15px;
+    float: right;
+  }
+
+  .panes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .panes-container .pane {
+    width: calc(50% - 30px);
+    margin: 15px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .panes-container.expanded .pane {
+    width: calc(20% - 20px);
+    margin: 10px;
+    height: 300px;
+  }
+
+  .panes-container.expanded .pane.primary {
+    order: -1;
+    width: calc(100% - 50px);
+    margin: 25px;
+    height: 600px;
+  }
+
+  </style>
+</head>
+<body>
+
+<!-- First Container -->
+
+<div class="container-fluid text-center panes-container">
+  
+  <div class="card pane">
+    <div class="card-block">
+      <h6>Panel Aaaa</h6>
+      <div class="action">
+        <a href="#" id="btn-focus-0">
+          <span class="fa fa-window-minimize"></span>
+        </a>
+        <a href="#">
+          <span class="fa fa-close"></span>
+        </a>
+      </div>
+    </div>
+    <div class="card-block">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <div class="card pane">
+    <div class="card-block">
+      <h6>Panel B</h6>
+      <div class="action">
+        <a href="#" id="btn-focus-1">
+          <span class="fa fa-window-minimize"></span>
+        </a>
+        <a href="#">
+          <span class="fa fa-close"></span>
+        </a>
+      </div>
+    </div>
+    <div class="card-block">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <div class="card pane">
+    <div class="card-block">
+      <h6>Panel C</h6>
+      <div class="action">
+        <a href="#" class="btn-focus" id="btn-focus-0">
+          <span class="fa fa-window-minimize"></span>
+        </a>
+        <a href="#">
+          <span class="fa fa-close"></span>
+        </a>
+      </div>
+    </div>
+    <div class="card-block">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <div class="card pane">
+    <div class="card-block">
+      <h6>Panel D</h6>
+      <div class="action">
+        <a href="#" id="btn-focus-1">
+          <span class="fa fa-window-minimize"></span>
+        </a>
+        <a href="#">
+          <span class="fa fa-close"></span>
+        </a>
+      </div>
+    </div>
+    <div class="card-block">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <div class="card pane">
+    <div class="card-block">
+      <h6>Panel E</h6>
+      <div class="action">
+        <a href="#" id="btn-focus-0">
+          <span class="fa fa-window-minimize"></span>
+        </a>
+        <a href="#">
+          <span class="fa fa-close"></span>
+        </a>
+      </div>
+    </div>
+    <div class="card-block">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <div class="card pane">
+    <div class="card-block">
+      <h6>Panel F</h6>
+      <div class="action">
+        <a href="#" id="btn-focus-1">
+          <span class="fa fa-window-minimize"></span>
+        </a>
+        <a href="#">
+          <span class="fa fa-close"></span>
+        </a>
+      </div>
+    </div>
+    <div class="card-block">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  
+</div>
+
+
+<div class="col-sm-2 container-one-max-card">
+</div>
+</body>
+</html>
